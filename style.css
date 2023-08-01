@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Estilo del encabezado */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Estilo de la lista de navegación */
+    justify-content: center;
+    
+}
+
+nav ul li {
+    margin-right: 25px; /* Estilo de cada elemento de la lista de navegación */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px; /* Estilo de los enlaces de navegación */
+    transition: background-color 0.3s; /* Transición suave al pasar el mouse */
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000; /* Estilo al pasar el mouse por encima de los enlaces de navegación */
+}
+
+main {
+    margin: 50px;
+}
+
+#tit2 {
+    color: #333;
+}
+
+/* Estilos específicos de la página de inicio */
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.contenido {
+    text-align: center;
+}
+
+/* Estilos específicos de la página de experiencia laboral y estudios */
+.caja2 {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px; /* Estilo de cada trabajo */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra alrededor de cada trabajo */
+}
+
+.logo {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+/* Estilos específicos de la página de contacto */
+#formulario {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px; /* Estilo del formulario de contacto */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra alrededor del formulario de contacto */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#Enviar {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#Enviar:hover {
+    background-color: #555;
+}
